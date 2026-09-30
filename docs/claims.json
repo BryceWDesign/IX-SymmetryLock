@@ -1,0 +1,40 @@
+{
+  "version": "0.1.0",
+  "claims": [
+    {
+      "capability": "explicit_coil_field_and_bounded_correction",
+      "status": "IMPLEMENTED",
+      "authority": "VACUUM_FIELD_CORRECTION_SCREEN"
+    },
+    {
+      "capability": "geometric_strength_constraint",
+      "status": "IMPLEMENTED",
+      "authority": "FIXED_GEOMETRIC_ANGLES"
+    },
+    {
+      "capability": "boozer_qa_arithmetic",
+      "status": "IMPLEMENTED_ARITHMETIC_ONLY",
+      "authority": "UNVERIFIED_EXTERNAL_COEFFICIENTS"
+    },
+    {
+      "capability": "finite_beta_equilibrium",
+      "status": "NOT_RUN"
+    },
+    {
+      "capability": "true_QA_control",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "capability": "hardware_control",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "capability": "fusion_or_net_electricity",
+      "status": "NOT_DEMONSTRATED"
+    },
+    {
+      "capability": "reactor_procurement_BOM",
+      "status": "UNRESOLVED"
+    }
+  ]
+}

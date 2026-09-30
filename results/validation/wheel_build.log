@@ -1,0 +1,9 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: ix-symmetrylock
+  Building wheel for ix-symmetrylock (pyproject.toml): started
+  Building wheel for ix-symmetrylock (pyproject.toml): finished with status 'done'
+  Created wheel for ix-symmetrylock: filename=ix_symmetrylock-0.1.0-py3-none-any.whl size=26370 sha256=ea2b5ef3305bc7036eb69e30e478d56d693230d7f417193501c40a4643c30334
+  Stored in directory: /tmp/pip-ephem-wheel-cache-_nqkf60b/wheels/d0/3b/ae/17f28f1024b5670a7329d12267ef800e56eeadac67924a175c
+Successfully built ix-symmetrylock

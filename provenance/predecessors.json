@@ -1,0 +1,102 @@
+{
+  "review_date": "2026-09-29",
+  "source": "user-supplied snapshots, not remote Git histories",
+  "records": [
+    {
+      "archive": "IX-Anomaly-Containment-Grid-main.zip",
+      "sha256": "66c05d71c681b2ffb437bd488e4a46bc30b7ce7cd249615c1c5a08fab74e03d7",
+      "reviewed_files_sha256": {
+        "README.md": "b6158b8b21d44567f5da0f7772062121165619ba8b610f65fe74caac0e401e78",
+        "LICENSE": "aeac335c6ad6067775158f1707af273d9f8847c7844d5f38e8c883e3e9a0dc41",
+        "pyproject.toml": "11319b88ae3c7df2624777902fa85c368e3c26b4b85040708ae0a3ab10f5eb53"
+      },
+      "transfer_decision": "retain observability, finite decision grouping, evidence discipline; no sensor runtime copied",
+      "source_code_imported": false
+    },
+    {
+      "archive": "IX-BlackBox-main(1).zip",
+      "sha256": "a77f4e1f5eeda3dc47a3297c021dadccb17a966284f3fbdc9d5451b7672cc01e",
+      "reviewed_files_sha256": {
+        "README.md": "103ed80eb379286fefced97e180aa2ebb7a8b98a2492d15a9a05e779b42aae86",
+        "LICENSE": "b17b78ecf8181583d21456b578384ac9145ee0982af79686b0ef6b261c893161",
+        "pyproject.toml": "59fb86376c6ab8e011fe2ab09852d5663188caeff49bbf332097874c2a61162b"
+      },
+      "transfer_decision": "retain exact finite-domain equivalence idea only; no equivalence of continuous magnetic fields claimed",
+      "source_code_imported": false
+    },
+    {
+      "archive": "IX-Fusion-main(1).zip",
+      "sha256": "f4173325aabd6216e8d5836576752b7133533c9fa5482853c73d842f8fd1d533",
+      "reviewed_files_sha256": {
+        "README.md": "d22c3700b57b1352d084425ab31f8bbadc98c438286ba1d8469060104982acd9",
+        "LICENSE": "9a676d87c0311d942fe5cdf17004ecfa2cd192d6d2b9d231c162a6dc58300b35",
+        "pyproject.toml": "78ac93118c1b60898ea6e9d9e79c662c2a1c85d68bc60d4412644a45fbcacbeb"
+      },
+      "transfer_decision": "retain matched-control and falsification framing; no reduced fusion scores carried forward",
+      "source_code_imported": false
+    },
+    {
+      "archive": "IX-GCR-SPE-main(20260929-194204).zip",
+      "sha256": "3b8d8295aee9a460e2e4de13257f8185ce2c14525c7c52ccc77f62c95b0fe00e",
+      "reviewed_files_sha256": {
+        "README.md": "5ac06288c5614c69f94b63f5030d730314f9d3e19147fdcd676530962564298a",
+        "LICENSE": "d2341eb6abd6f65c72759c36be9274ddc9aa27b86844d82577e051175aa9da49",
+        "pyproject.toml": "accf331b4503dc33c7004226d756e5194b3446c7e16a22ad13cd072fd9513bab"
+      },
+      "transfer_decision": "retain local protection inventory framing only; no GCR physics transferred to D-T neutron shielding",
+      "source_code_imported": false
+    },
+    {
+      "archive": "IX-Golden-Trump-Card-main(20260929-194205).zip",
+      "sha256": "5f4b6c1e111431ebbde507f9df7a2febb8d1a0625723a744da12c96889ee884f",
+      "reviewed_files_sha256": {
+        "README.md": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "LICENSE": "367d985a7c023f81b9ed2a28d6f2bad25df6157c917cefd6b762ce4b40221bf0"
+      },
+      "transfer_decision": "no exotic material, resonance, coherence or nuclear claims adopted; no code imported",
+      "source_code_imported": false
+    },
+    {
+      "archive": "IX-Mirror-main(20260929-194205).zip",
+      "sha256": "e4e6d1114314936e1194edad847d62e9765f2a40f2ec9f6b288df4f877c91a86",
+      "reviewed_files_sha256": {
+        "README.md": "cedd7ead57ff1b05bc91d50cf463a99525c98b7dad965a5bde13de984f0c85fe",
+        "LICENSE": "d2341eb6abd6f65c72759c36be9274ddc9aa27b86844d82577e051175aa9da49"
+      },
+      "transfer_decision": "retain function-based protective-layer inventory only; no shielding performance credit",
+      "source_code_imported": false
+    },
+    {
+      "archive": "IX-StellaratorForge-main(6).zip",
+      "sha256": "9e6c60cec1c4623859876649ebc2b392f83eb052777ea3ba4aa27e50e2f5690d",
+      "reviewed_files_sha256": {
+        "README.md": "833807f32bfda5d776a6dbfe95a85db5115c48a250f2b98dc8af0d3129944ede",
+        "LICENSE": "a1910a705ab6b4f879c4129e6cd40191c44f7c1574f7528371648eec1f7f9ddf",
+        "pyproject.toml": "aa97a3bf73c7566f005c964dbf2c9cbc1d3a425e083d3dca7a60b0755b540f44"
+      },
+      "transfer_decision": "current v0.10.0 predecessor already includes inverse-design rejection and promotion contracts; new explicit correction campaign is not a reactor performance comparison",
+      "source_code_imported": false
+    },
+    {
+      "archive": "Nuclear-Fusion-Simulation-ClosedLoop-main.zip",
+      "sha256": "0dd41923baf461150321535c89f65b6e087271433ca516b142bf488a49b611cf",
+      "reviewed_files_sha256": {
+        "README.md": "1f7dae289d2eab2665050020f37669bfc8192ec63bf8779f988c9796012f0e13",
+        "pyproject.toml": "54baf8b341290e14639fdc19462316a156b9244cfc6a401bc53e9433cff0403f"
+      },
+      "transfer_decision": "retain causal energy source accounting principle; no tokamak transport law transplanted",
+      "source_code_imported": false
+    },
+    {
+      "archive": "Superheavy-Survival-Audit-main(20260929-194206).zip",
+      "sha256": "e3e8a4bce523d3658287dd227c1d3fc2b98eed4e33d4f39370e053e0afd6365c",
+      "reviewed_files_sha256": {
+        "README.md": "4cccbf89e9c762852f37e41a8a91067116c784e17f89a14b6a9f08e008fd4dac",
+        "LICENSE": "d2341eb6abd6f65c72759c36be9274ddc9aa27b86844d82577e051175aa9da49",
+        "pyproject.toml": "9027d25ce6bcbb952e470ce81414aa1460d12cb23db3ef1bb781d5c80471e2c8"
+      },
+      "transfer_decision": "retain uncertainty and audit framing; no nuclide stabilization claim or model transferred",
+      "source_code_imported": false
+    }
+  ]
+}

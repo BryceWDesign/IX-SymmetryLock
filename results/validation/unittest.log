@@ -1,0 +1,50 @@
+test_cli_verifies_bundle_and_detects_tampering (test_campaign_and_cli.CampaignTests.test_cli_verifies_bundle_and_detects_tampering) ... ok
+test_csv_only_commands_available_channels (test_campaign_and_cli.CampaignTests.test_csv_only_commands_available_channels) ... ok
+test_displaced_fault_improves_independent_grid (test_campaign_and_cli.CampaignTests.test_displaced_fault_improves_independent_grid) ... ok
+test_geometry_archive_contains_actual_paths_and_independent_samples (test_campaign_and_cli.CampaignTests.test_geometry_archive_contains_actual_paths_and_independent_samples) ... ok
+test_missing_channel_and_saturation_reject (test_campaign_and_cli.CampaignTests.test_missing_channel_and_saturation_reject) ... ok
+test_recomputation_detects_forged_metric_even_with_updated_hash (test_campaign_and_cli.CampaignTests.test_recomputation_detects_forged_metric_even_with_updated_hash) ... ok
+test_recompute_archived_fields_and_gates (test_campaign_and_cli.CampaignTests.test_recompute_archived_fields_and_gates) ... ok
+test_tight_lock_does_not_silently_promote (test_campaign_and_cli.CampaignTests.test_tight_lock_does_not_silently_promote) ... ok
+test_unknown_and_malformed_config_rejected (test_campaign_and_cli.CampaignTests.test_unknown_and_malformed_config_rejected) ... ok
+test_complete_load_accounting (test_inverse_and_evidence.EvidenceTests.test_complete_load_accounting) ... ok
+test_dt_energy_and_particles_close (test_inverse_and_evidence.EvidenceTests.test_dt_energy_and_particles_close) ... ok
+test_empty_manifest_rejected (test_inverse_and_evidence.EvidenceTests.test_empty_manifest_rejected) ... ok
+test_finite_behavior_equality_is_exact (test_inverse_and_evidence.EvidenceTests.test_finite_behavior_equality_is_exact) ... ok
+test_forged_pass_labels_do_not_promote (test_inverse_and_evidence.EvidenceTests.test_forged_pass_labels_do_not_promote) ... ok
+test_manifest_detects_tampering (test_inverse_and_evidence.EvidenceTests.test_manifest_detects_tampering) ... ok
+test_manifest_path_escape_blocked (test_inverse_and_evidence.EvidenceTests.test_manifest_path_escape_blocked) ... ok
+test_missing_solver_records_fail_closed (test_inverse_and_evidence.EvidenceTests.test_missing_solver_records_fail_closed) ... ok
+test_negative_and_nonfinite_energy_input (test_inverse_and_evidence.EvidenceTests.test_negative_and_nonfinite_energy_input) ... ok
+test_unknown_load_blocks_net_electric_claim (test_inverse_and_evidence.EvidenceTests.test_unknown_load_blocks_net_electric_claim) ... ok
+test_bounded_inverse_known_fault (test_inverse_and_evidence.InverseTests.test_bounded_inverse_known_fault) ... ok
+test_correctable_and_uncorrectable_residual (test_inverse_and_evidence.InverseTests.test_correctable_and_uncorrectable_residual) ... ok
+test_current_symmetry_and_nan_gates (test_inverse_and_evidence.InverseTests.test_current_symmetry_and_nan_gates) ... ok
+test_information_bad_prior (test_inverse_and_evidence.InverseTests.test_information_bad_prior) ... ok
+test_information_ranking_penalizes_noise (test_inverse_and_evidence.InverseTests.test_information_ranking_penalizes_noise) ... ok
+test_no_safe_modes (test_inverse_and_evidence.InverseTests.test_no_safe_modes) ... ok
+test_nonfinite_inputs_and_limits_rejected (test_inverse_and_evidence.InverseTests.test_nonfinite_inputs_and_limits_rejected) ... ok
+test_nullspace_projector (test_inverse_and_evidence.InverseTests.test_nullspace_projector) ... ok
+test_perfect_measurement_not_reactor_credit (test_inverse_and_evidence.InverseTests.test_perfect_measurement_not_reactor_credit) ... ok
+test_saturation_is_rejected (test_inverse_and_evidence.InverseTests.test_saturation_is_rejected) ... ok
+test_symmetry_projection_changes_reachable_space (test_inverse_and_evidence.InverseTests.test_symmetry_projection_changes_reachable_space) ... ok
+test_backbone_has_zero_normal_field_and_geometric_variation (test_physics.FieldTests.test_backbone_has_zero_normal_field_and_geometric_variation) ... ok
+test_backbone_no_transform_negative_control (test_physics.FieldTests.test_backbone_no_transform_negative_control) ... ok
+test_circular_loop_axis_against_analytic (test_physics.FieldTests.test_circular_loop_axis_against_analytic) ... ok
+test_far_field_inverse_cube (test_physics.FieldTests.test_far_field_inverse_cube) ... ok
+test_filament_collision_rejected (test_physics.FieldTests.test_filament_collision_rejected) ... ok
+test_invalid_geometry_rejected (test_physics.FieldTests.test_invalid_geometry_rejected) ... ok
+test_large_point_batches_equal_small_evaluation (test_physics.FieldTests.test_large_point_batches_equal_small_evaluation) ... ok
+test_polygon_convergence (test_physics.FieldTests.test_polygon_convergence) ... ok
+test_qa_external_coefficient_score (test_physics.FieldTests.test_qa_external_coefficient_score) ... ok
+test_qa_invalid_spectrum_rejected (test_physics.FieldTests.test_qa_invalid_spectrum_rejected) ... ok
+test_reverse_path_reverses_field (test_physics.FieldTests.test_reverse_path_reverses_field) ... ok
+test_rotation_covariance (test_physics.FieldTests.test_rotation_covariance) ... ok
+test_strength_derivative_finite_difference (test_physics.FieldTests.test_strength_derivative_finite_difference) ... ok
+test_trace_known_helical_manufactured_field (test_physics.FieldTests.test_trace_known_helical_manufactured_field) ... ok
+test_trace_vanishing_phi_rejected (test_physics.FieldTests.test_trace_vanishing_phi_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 10.551s
+
+OK

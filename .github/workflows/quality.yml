@@ -1,0 +1,40 @@
+name: Quality and evidence
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.12', '3.13']
+    runs-on: ${{ matrix.os }}
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e .
+      - run: python -m unittest discover -s tests -v
+      - run: python -m ix_symmetrylock poc --output results/local
+      - run: python scripts/check_campaign.py results/local
+      - run: python -m ix_symmetrylock verify results/local
+      - run: python -m ix_symmetrylock audit results/local
+      - uses: actions/upload-artifact@v7
+        with:
+          name: evidence-${{ matrix.os }}-${{ matrix.python }}
+          path: results/local
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install ruff==0.12.12
+      - run: python -m ruff check src tests scripts
+      - run: python -m ruff format --check src tests scripts

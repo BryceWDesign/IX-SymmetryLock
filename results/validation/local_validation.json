@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-29",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "tests_passed": 45,
+  "tests_failed": 0,
+  "ruff_version": "0.12.12",
+  "lint": "PASS",
+  "format": "PASS",
+  "campaign_contract": "PASS",
+  "primary_field_audit_recomputed_grids": 18,
+  "source_hashes_matched": 13,
+  "surface_grid_max_points": 10585,
+  "reactor_promoted": false,
+  "remote_github_actions": "NOT_RUN",
+  "other_python_versions_and_windows": "NOT_EXECUTED_LOCALLY",
+  "wheel_build": "PASS",
+  "wheel_install_to_isolated_target": "PASS",
+  "installed_wheel_campaign": "PASS",
+  "installed_wheel_field_audit": "PASS"
+}

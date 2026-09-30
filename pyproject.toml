@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ix-symmetrylock"
+version = "0.1.0"
+description = "Auditable symmetry-constrained magnetic-error correction research"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Bryce Lovell"}]
+license = "LicenseRef-IX-SymmetryLock-Eval-Only-1.1"
+license-files = ["LICENSE"]
+dependencies = ["numpy>=2.1,<3", "scipy>=1.14,<2"]
+classifiers = ["Development Status :: 3 - Alpha"]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.9,<4"]
+dev = ["ruff==0.12.12"]
+
+[project.scripts]
+ix-symmetrylock = "ix_symmetrylock.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]

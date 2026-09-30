@@ -1,0 +1,13 @@
+{
+  "authentication": "UNSIGNED_FILE_INTEGRITY_ONLY",
+  "files": {
+    "campaign.json": "f1d4baee23f5c7fcd89e1359cf4f559d67586a45c15a5c112bb7267368d99d9d",
+    "coil_geometry.png": "bbcf978f2808b40e593911c5631f8cba77b21a19022c5eb5eadf6838a88b2b0f",
+    "config.json": "a9d2a8030689f1af0cf43d0718e6f6179daa79c050dd0618beaff67b060e7ed4",
+    "currents.csv": "9fa2c5677d618ade5a6d0b3931d63bcde7ad678db772174ea998187ceaaf413c",
+    "field_correction.png": "851a944770ec390ef4db2997a7334bfe2636159a313f933c6aa5e5cec2ebc949",
+    "geometry.npz": "a8581ed081c40b9977f27934bd1754ffecab62af816878f78a146ab6a33cf7be",
+    "source_hashes.json": "4738399505dd33cae5196ea5fe4ee8bfd310fda4631530bd3cf7fac406b52171"
+  },
+  "schema": "ix-symmetrylock.integrity.v1"
+}

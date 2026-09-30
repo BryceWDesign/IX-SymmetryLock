@@ -1,0 +1,13 @@
+name,version,roles,requires_python,license_expression
+numpy,2.3.5,optional figures; runtime,>=3.11,see upstream notice
+scipy,1.17.0,runtime,>=3.11,see upstream notice
+matplotlib,3.10.8,optional figures,>=3.10,see upstream notice
+contourpy,1.3.3,optional figures,>=3.11,see upstream notice
+cycler,0.12.1,optional figures,>=3.8,see upstream notice
+fonttools,4.61.1,optional figures,>=3.10,see upstream notice
+kiwisolver,1.4.9,optional figures,>=3.10,see upstream notice
+packaging,26.3,optional figures,>=3.9,Apache-2.0 OR BSD-2-Clause
+pillow,12.3.0,optional figures,>=3.10,MIT-CMU
+pyparsing,3.3.2,optional figures,>=3.9,MIT
+python-dateutil,2.9.0.post0,optional figures,"!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",see upstream notice
+six,1.17.0,optional figures,">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",see upstream notice

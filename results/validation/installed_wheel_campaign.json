@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "name": "nominal",
+      "screen_pass": true,
+      "validation_normal_rms": 4.066559895281647e-17,
+      "validation_geometric_strength_rms": 5.209514153169296e-16
+    },
+    {
+      "name": "matched_fault_locked",
+      "screen_pass": true,
+      "validation_normal_rms": 3.870438543642396e-09,
+      "validation_geometric_strength_rms": 3.065592853604573e-09
+    },
+    {
+      "name": "displaced_fault_locked",
+      "screen_pass": true,
+      "validation_normal_rms": 5.397129830608668e-06,
+      "validation_geometric_strength_rms": 3.2689771608687743e-06
+    },
+    {
+      "name": "displaced_fault_unlocked",
+      "screen_pass": true,
+      "validation_normal_rms": 5.397129830608668e-06,
+      "validation_geometric_strength_rms": 3.2689771608687743e-06
+    },
+    {
+      "name": "one_channel_unavailable",
+      "screen_pass": false,
+      "validation_normal_rms": 4.887989491581152e-05,
+      "validation_geometric_strength_rms": 6.440391625298917e-05
+    },
+    {
+      "name": "current_saturation",
+      "screen_pass": false,
+      "validation_normal_rms": 6.062751795117528e-05,
+      "validation_geometric_strength_rms": 6.815233447829386e-05
+    },
+    {
+      "name": "twelve_actuator_basis",
+      "screen_pass": false,
+      "validation_normal_rms": 4.5453489295865604e-05,
+      "validation_geometric_strength_rms": 3.531950152885508e-05
+    },
+    {
+      "name": "tight_symmetry_locked",
+      "screen_pass": false,
+      "validation_normal_rms": 5.3771587875180585e-06,
+      "validation_geometric_strength_rms": 5.671102539078558e-06
+    },
+    {
+      "name": "tight_symmetry_unlocked",
+      "screen_pass": false,
+      "validation_normal_rms": 5.397129830608668e-06,
+      "validation_geometric_strength_rms": 3.2689771608687743e-06
+    }
+  ],
+  "reactor_promoted": false
+}

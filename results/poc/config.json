@@ -1,0 +1,32 @@
+{
+  "axis_backbone_T": 0.03,
+  "coil_position_sigma_m": 0.0005,
+  "coil_segments": 96,
+  "current_limit_amp_turn": 80.0,
+  "current_relative_sigma": 0.005,
+  "declared_authority": "VACUUM_FIELD_CORRECTION_SCREEN",
+  "evaluation_minor_radius_m": 0.1,
+  "major_radius_m": 0.5,
+  "max_iterations": 300,
+  "minimum_normal_reduction": 0.5,
+  "normal_rms_limit": 0.001,
+  "poloidal_stations": 3,
+  "ridge": 1e-07,
+  "schema": "ix-symmetrylock.poc.v1",
+  "symmetry_coordinates": "FIXED_GEOMETRIC_ANGLES_NOT_BOOZER",
+  "symmetry_rms_limit": 0.0005,
+  "toroidal_stations": 8,
+  "training_grid": [
+    24,
+    12
+  ],
+  "trim_radius_m": 0.035,
+  "uncertainty_samples": 12,
+  "uncertainty_seed": 20260929,
+  "validation_grid": [
+    37,
+    19
+  ],
+  "validation_offset": 0.5,
+  "winding_minor_radius_m": 0.19
+}
